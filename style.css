@@ -1,0 +1,154 @@
+/* 1. Global Styles and Typography */
+body {
+    /* Uses a modern, clean font stack */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #3232d1; /* Very light background for professionalism */
+    color: #333; /* Dark text for readability */
+}
+
+/* Headings - Give structure and hierarchy */
+h1, h2, h3 {
+    color: #1a1a2e; /* Dark, professional color for emphasis */
+    font-weight: 700;
+}
+
+h2 {
+    border-bottom: 2px solid #5a5a70; /* Subtle line under main section headers */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* 2. Navigation Bar (Header) */
+header {
+    background-color: #0d47a1; /* Deep blue, common for professional sites */
+    color: white;
+    padding: 15px 0;
+    position: sticky; /* Keeps the nav bar visible when scrolling */
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Subtle gold accent on hover */
+}
+
+/* 3. Section Styling and Layout */
+section {
+    padding: 40px 10%; /* Ensures content doesn't touch the edges */
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255); /* Content blocks stand out */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px;
+}
+
+/* HOME/INTRODUCTION specific styling */
+#home {
+    text-align: center;
+    padding: 80px 10%;
+    background-color: #e3f2fd; /* Lighter background for the introduction */
+}
+
+/* ABOUT ME - Simple list styling */
+#about p {
+    margin-bottom: 5px;
+}
+
+/* SKILLS - Organize into columns for readability */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    /* Use a simple grid for a better layout of skills categories */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#skills h3 {
+    width: 100%;
+    margin-top: 20px;
+    color: #0d47a1;
+}
+
+/* PROJECTS - Clear separation between projects */
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    transition: box-shadow 0.3s;
+}
+
+.project:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Interactive hover effect */
+}
+
+.project img {
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+/* CERTIFICATIONS & ACHIEVEMENTS - Clean bullet points */
+#certifications ul {
+    list-style-type: '🏆 '; /* Custom bullet point */
+    padding-left: 20px;
+}
+
+/* 4. Links and Buttons */
+a {
+    color: #0d47a1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #0d47a1;
+    color: rgb(37, 218, 16);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.download-button:hover {
+    background-color: #00308f;
+    text-decoration: none;
+}
+
+/* 5. Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #f4f4f9;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
